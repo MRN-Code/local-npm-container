@@ -1,0 +1,31 @@
+{
+  "name": "local-npm-container",
+  "version": "1.0.0",
+  "description": "npm caching proxy service",
+  "main": "index.js",
+  "scripts": {
+    "start": "local-npm --url-base http://0.0.0.0:5080 -d ./data",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MRN-Code/local-npm-container.git"
+  },
+  "keywords": [
+    "npm",
+    "local",
+    "proxy",
+    "local-npm",
+    "cache",
+    "service"
+  ],
+  "author": "cdaringe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MRN-Code/local-npm-container/issues"
+  },
+  "dependencies": {
+    "local-npm": "^1.5.8"
+  },
+  "homepage": "https://github.com/MRN-Code/local-npm-container#readme"
+}
